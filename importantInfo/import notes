@@ -1,0 +1,27 @@
+# install lombok in system to supoort some featurs of Spring Boot
+
+# Install Postman
+
+A -> Student Info 
+1.addNewStudent (POST Request) Student Url -> http://localhost:8888/v1/students
+{firstName -> Ram
+lastName  -> Kumar}
+2.Get All students Url(Get Request) -> http://localhost:8888/v1/students 
+3.Get Student By Id Url(Get Request) ->  http://localhost:8888/v1/students/studentID/{id}
+4.Get Student By Name(Get Request)  ->  http://localhost:8888/v1/students/{FirstName or Last Name}
+
+B -> Module Info
+1.Create Module (POST Request) Student Url -> http://localhost:8888/v1/modules
+{moduleName -> CSE
+moduleDetails  -> This is CSE Modules which will discuss about data Structure}
+
+2.Get All Modules (Get Request) ->  http://localhost:8888/v1/module/all
+3.Get Module By Id(Get Request) ->  http://localhost:8888/v1/module/id/{id}
+4.Get Module By Name(Get Request) -> http://localhost:8888/v1/module/name/{name}
+
+5.Put Request for Enrollment ->  http://localhost:8888/v1/enrolments
+{
+    "studentId": "1",
+    "moduleId": "1"
+}
+
